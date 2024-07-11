@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.pp{
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+    
+}
+.image img{
+    width: 350px;
+
+    
+}
+.image{
+    display: flex;
+    justify-content: space-around;
+
+}
+.text{
+    position: absolute;
+    margin-top: 200px;
+    z-index: 3;
+    margin-left: 100px;
+}
+
+.lor{
+    width: 320px;
+    text-align: justify
+}
+.readmore{
+    padding: 5px;
+    background-color: black;
+    color: white;
+}
+.name{
+  font-family: "Playwrite HR", cursive;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+  color:red;
+
+}
+.navbar navbar-expand-lg navbar-light bg-light{
+    position: fixed;
+}
